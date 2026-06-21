@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人網站 - 110001</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">110001</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="切換導覽">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home">首頁</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">關於我</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">技能</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">專案</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#articles">文章</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">聯絡</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="bg-light py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold mb-4">歡迎來到我的個人網站</h1>
+                    <p class="lead mb-4">資管系學生｜網頁開發｜數據分析</p>
+                    <p>我是學生110001，正在學習 Bootstrap、HTML、CSS 和 JavaScript，喜歡做簡單、乾淨、易懂的網頁。</p>
+                    <a href="#about" class="btn btn-primary me-2">關於我</a>
+                    <a href="#contact" class="btn btn-outline-primary">聯絡我</a>
+                </div>
+                <div class="col-lg-6 text-center mt-4 mt-lg-0">
+                    <img src="images/profile.jpg" alt="個人照片" class="img-fluid rounded-circle border border-3 border-primary" style="max-width: 320px;">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-4">關於我</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">基本資訊</h5>
+                            <p><strong>姓名：</strong>學生110001</p>
+                            <p><strong>學校：</strong>聯合大學</p>
+                            <p><strong>科系：</strong>資訊管理系</p>
+                            <p><strong>興趣：</strong>網頁設計、數據分析、人工智能</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">教育背景</h5>
+                            <p><strong>聯合大學資訊管理系</strong></p>
+                            <ul>
+                                <li>網頁開發與設計</li>
+                                <li>資料庫管理系統</li>
+                                <li>Python 程式設計</li>
+                                <li>資訊安全</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-5 bg-white">
+        <div class="container">
+            <h2 class="section-title text-center mb-4">專業技能</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">實務經驗</h5>
+                            <p class="mb-2"><strong>實習生 - ABC科技公司</strong></p>
+                            <p class="text-muted">2024年7月 - 2024年9月</p>
+                            <p>負責前端網頁開發，使用 HTML、CSS、JavaScript 進行 UI 設計與 API 整合。</p>
+                            <hr>
+                            <p class="mb-2"><strong>志願者 - 校園資訊支援</strong></p>
+                            <p class="text-muted">2023年9月 - 迄今</p>
+                            <p>協助校園軟硬體問題，並提供簡單的網站操作教學。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">技能列表</h5>
+                            <p class="mb-1">HTML / CSS</p>
+                            <div class="progress mb-3" style="height: 20px;"><div class="progress-bar bg-primary" style="width: 90%;">90%</div></div>
+                            <p class="mb-1">JavaScript</p>
+                            <div class="progress mb-3" style="height: 20px;"><div class="progress-bar bg-primary" style="width: 80%;">80%</div></div>
+                            <p class="mb-1">Python</p>
+                            <div class="progress mb-3" style="height: 20px;"><div class="progress-bar bg-primary" style="width: 85%;">85%</div></div>
+                            <p class="mb-1">SQL</p>
+                            <div class="progress mb-3" style="height: 20px;"><div class="progress-bar bg-primary" style="width: 80%;">80%</div></div>
+                            <p class="mb-1">Bootstrap</p>
+                            <div class="progress" style="height: 20px;"><div class="progress-bar bg-primary" style="width: 88%;">88%</div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-4">專案作品</h2>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card shadow-sm h-100">
+                        <img src="images/project1.jpg" class="card-img-top" alt="網頁開發作品">
+                        <div class="card-body">
+                            <h5 class="card-title">網頁開發作品</h5>
+                            <p class="card-text">使用 HTML、CSS、JavaScript 開發的響應式網站。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card shadow-sm h-100">
+                        <img src="images/project2.jpg" class="card-img-top" alt="資料庫管理系統">
+                        <div class="card-body">
+                            <h5 class="card-title">資料庫管理系統</h5>
+                            <p class="card-text">使用 Python 和 SQL 開發的數據管理系統。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card shadow-sm h-100">
+                        <img src="images/project3.jpg" class="card-img-top" alt="課程作品">
+                        <div class="card-body">
+                            <h5 class="card-title">課程結業作品</h5>
+                            <p class="card-text">完整全端作品，包含前端與後端功能。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="articles" class="py-5 bg-white">
+        <div class="container">
+            <h2 class="section-title text-center mb-4">文章與獲獎</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">文章分享</h5>
+                            <ul>
+                                <li>現代網頁開發的最佳實踐</li>
+                                <li>Python 資料分析入門</li>
+                                <li>資訊安全基礎認知</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">獲獎紀錄</h5>
+                            <ul>
+                                <li>校內程式設計競賽 優選</li>
+                                <li>學術成就獎學金</li>
+                                <li>Google IT 認證</li>
+                                <li>志願服務時數表揚</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-4">聯絡我</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <form id="contactForm">
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">姓名</label>
+                                    <input type="text" class="form-control" id="name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">電子郵件</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="subject" class="form-label">主題</label>
+                                    <input type="text" class="form-control" id="subject" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">訊息</label>
+                                    <textarea class="form-control" id="message" rows="5" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100">發送訊息</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="text-center mt-4">
+                        <p class="mb-2">其他聯絡方式：</p>
+                        <a href="mailto:student110001@example.com" class="btn btn-outline-primary btn-sm me-2 mb-2">Email</a>
+                        <a href="#" class="btn btn-outline-primary btn-sm mb-2">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-primary text-white py-4 text-center">
+        <div class="container">
+            <p class="mb-1">&copy; 2026 個人網站 - 學號 110001</p>
+            <p class="small mb-0">使用 HTML | Bootstrap | JavaScript 製作</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
